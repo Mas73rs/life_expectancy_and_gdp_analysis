@@ -25,35 +25,29 @@ By following these steps, we aim to provide empirical evidence to support the Vi
 
 ## Analysis
 
+Although the data used for the analysis was not big enough to generalise our findings, as the only countries present are the USA, China, Germany, Mexico, Chile, and Zimbabwe for a time frame of 2000 to 2015, we were, however, able to uncover some interesting trends.
+
 ### Distribution of Life Expectancy
+![Distribution of Life Expectancy.](<results/Distribution of Life Expectancy.png>)
 
-![Distribution of Life Expectancy](results/Distribution of Life Expectancy.png)
-
-*In-depth interpretation and discussion here.*
-
-### GDP Comparison by Country
-
-![GDP Comparison by Country](results/gdp_comparison_by_country.png)
-
-*In-depth interpretation and discussion here.*
-
-### LEABY Scatterplot
-
-![LEABY Scatterplot](results/LEABY scatterplot.png)
-
-*In-depth interpretation and discussion here.*
+The graph above displays the distribution of life expectancy across the six different countries of our analysis. The distribution is skewed right and indicates that most countries have their life expectancy fall between 72 and 82 years.
 
 ### Life Expectancy and GDP
 
-![Life Expectancy and GDP](results/Life Expectancy and GDP.png)
+After examining life expectancy distribution, we tried to investigate how it progressed over time compared to the GDP.
 
-*In-depth interpretation and discussion here.*
+![Life Expectancy and GDP by Country over time](<results/Life Expectancy and GDP.png>)
 
-### Life Expectancy Comparison by Country
+The above graph is separated into two: above, we have life expectancy over time, and below, GDP over time.
+The multi-dimensional nature of the graph captures the relationship between these variables (Life Expectancy and GDP) more nuancedly. The most noticeable trends are, on one hand, those of the USA and China, whose GDP have been increasing from 2000 to 2015. Although the USA's GDP is the highest, China's has never dropped. We can observe an amelioration in their life expectancy, although not as noticeable as their GDP. On the other hand, after a slight decrease between 2000 and 2004, Zimbabwe's life expectancy has seen a sharp increase with no change in its GDP.
 
-![Life Expectancy Comparison by Country](results/Life Expectancy Comparison by Country.png)
+### Correlation between Life Expectancy and GDP
 
-*In-depth interpretation and discussion here.*
+We created this scatterplot to further explore the relationship between Life Expectancy (LEABY) and GDP.
+
+![Alt text](<results/LEABY scatterplot.png>)
+
+The points across the graph suggest a correlation except for Zimbabwe, whose GDP is abnormally stable at 0.
 
 ## Conclusion
 
